@@ -1,0 +1,16 @@
+body{
+    background-image: url("stardust_bg1.png");
+}
+header { border-bottom: 1px solid #ffffff; }
+header > h1 { 
+    display: inline-block;
+    font-size: 40px;
+}
+header span { margin-left: 100px; }
+header{
+    font: Raleway;
+    
+    color: #f1f1f1;
+    letter-spacing: 0.4rem;
+    width: 50%;
+}
