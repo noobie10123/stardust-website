@@ -1,2 +1,2 @@
 # stardust-website
-main-page.html is the older one
+main_page.html is the older one
