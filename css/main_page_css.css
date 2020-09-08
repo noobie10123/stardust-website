@@ -5,24 +5,31 @@ html,body{
     height:100vh;
     width:100vw;
 }
-body {
-    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
-    height: 100vh;
-    width: 100vw;
-    
+
+a{
+  font-family:'Shadows Into Light',cursive;
+  color:white;
+  font-size:25px;
 }
-
-
+h4{
+  padding-top:35px;
+}
+img{
+  border-top-left-radius:10%;
+  border-top-right-radius:10%;
+  border-bottom-left-radius:10%;
+  border-bottom-right-radius:10%;
+}
 /*
 header { border-bottom: 1px solid #ffffff; }
-header > h1 { 
+header > h1 {
     display: inline-block;
     font-size: 40px;
 }
 header span { margin-left: 100px; }
 header{
     font: Raleway;
-    
+
     color: #f1f1f1;
     letter-spacing: 0.4rem;
     width: 50%;
@@ -39,7 +46,7 @@ header{
     background:black;
 }
 .navbar-brand {
-    font-family: 'Lobster', cursive;
+    font-family: 'Agency FB', cursive;
     font-weight: 200;
 }
 #stardust-logo{
@@ -54,10 +61,10 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     letter-spacing: 10px;
-    font-family: 'Lobster', serif;
-    color:rgba(129, 160, 214, 0.746);
+    font-family: ' Agency FB', 'Philosopher';
+    color:#00B0F0;
     z-index:-1;
-    
+
   }
   .night{
       z-index:1;
@@ -67,7 +74,7 @@ header{
       font-size: 2.5em;
       text-shadow:1px 1px rgb(31, 72, 126);
   }
- 
+
   section{
       letter-spacing:3px;
       height:100vh;
@@ -81,7 +88,8 @@ header{
 
   .lead{
      letter-spacing: 5px;
-      font-size:1.2rem;
+      font-size:1.5rem;
+      line-height:50px;
       color:white;
   }
   footer{
