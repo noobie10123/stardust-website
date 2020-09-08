@@ -1,7 +1,7 @@
 .night {
     position: relative;
-    width: 30%;
-    height: 15%;
+    width: 15%;
+    height: 2%;
     transform: rotateZ(45deg);
 }
 .shooting_star {
