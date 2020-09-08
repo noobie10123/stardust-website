@@ -49,13 +49,13 @@ header{
 .masthead {
     height: 100vh;
     min-height: 300px;
-    background-image: url('https://images.pexels.com/photos/515341/pexels-photo-515341.jpeg');
+    background-image: linear-gradient(0deg, rgba(0, 74, 100, 1) 15%, rgba(0, 51, 76, 1) 35%, rgba(0, 30, 53, 1) 50%, rgba(0, 2, 32, 1) 65%, rgba(0, 0, 4, 1) 85%, rgba(0, 0, 0, 1) 100%); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     letter-spacing: 10px;
-    font-family: 'Philosopher', sans-serif;
-    color:rgba(129, 160, 214, 0.746);
+    font-family: 'Agency FB', 'Philosopher';
+    color:#00B0F0;
     z-index:-1;
     
   }
@@ -64,8 +64,9 @@ header{
 }
 
   .masthead h1{
-      font-size: 2.5em;
+      font-size: 3em;
       text-shadow:1px 1px rgb(31, 72, 126);
+      font-weight: bolder;
   }
  
   section{
@@ -81,7 +82,8 @@ header{
 
   .lead{
      letter-spacing: 5px;
-      font-size:1.2rem;
+      font-size:1.5rem;
+      line-height: 50px;
       color:white;
   }
   footer{
