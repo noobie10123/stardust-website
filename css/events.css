@@ -13,13 +13,12 @@
 
 html, body {
   height: 100%;
-  overflow: hidden;
 }
 
 body {
   padding: 0;
   margin: 0;
-  background: #080890;
+  background: rgba(0, 74, 100, 1);
   font-size: 14px;
   line-height: 1;
 }
@@ -529,3 +528,52 @@ button {
     margin-top: 20px;
   }
 }
+.multi-item-carousel{
+    .carousel-inner{
+      > .item{
+        transition: 500ms ease-in-out left;
+      }
+      .active{
+        &.left{
+          left:-33%;
+        }
+        &.right{
+          left:33%;
+        }
+      }
+      .next{
+        left: 33%;
+      }
+      .prev{
+        left: -33%;
+      }
+      @media all and (transform-3d), (-webkit-transform-3d) {
+        > .item{
+          // use your favourite prefixer here
+          transition: 500ms ease-in-out left;
+          transition: 500ms ease-in-out all;
+          backface-visibility: visible;
+          transform: none!important;
+        }
+      }
+    }
+    .carouse-control{
+      &.left, &.right{
+        background-image: none;
+      }
+    }
+  }
+  .container{
+      height:100vh;
+  }
+  footer{
+    color:white;
+    text-align :center;
+    font-family: 'Philosopher', sans-serif;
+    font-size:1rem;
+}
+a{
+    color:white;
+}
+  
+  
