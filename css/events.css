@@ -529,51 +529,40 @@ button {
   }
 }
 .multi-item-carousel{
-    .carousel-inner{
+  .carousel-inner{
+    > .item{
+      transition: 500ms ease-in-out left;
+    }
+    .active{
+      &.left{
+        left:-33%;
+      }
+      &.right{
+        left:33%;
+      }
+    }
+    .next{
+      left: 33%;
+    }
+    .prev{
+      left: -33%;
+    }
+    @media all and (transform-3d), (-webkit-transform-3d) {
       > .item{
+        // use your favourite prefixer here
         transition: 500ms ease-in-out left;
-      }
-      .active{
-        &.left{
-          left:-33%;
-        }
-        &.right{
-          left:33%;
-        }
-      }
-      .next{
-        left: 33%;
-      }
-      .prev{
-        left: -33%;
-      }
-      @media all and (transform-3d), (-webkit-transform-3d) {
-        > .item{
-          // use your favourite prefixer here
-          transition: 500ms ease-in-out left;
-          transition: 500ms ease-in-out all;
-          backface-visibility: visible;
-          transform: none!important;
-        }
-      }
-    }
-    .carouse-control{
-      &.left, &.right{
-        background-image: none;
+        transition: 500ms ease-in-out all;
+        backface-visibility: visible;
+        transform: none!important;
       }
     }
   }
-  
-  .img-responsive{
-    width:500px;
-    height:300px;
+  .carouse-control{
+    &.left, &.right{
+      background-image: none;
+    }
   }
-  @media (max-width: 600px) {
-      .img-responsive{
-        width:200px;
-        height:200px;
-      }
-  }
+}
   footer{
     color:white;
     text-align :center;
