@@ -212,6 +212,7 @@ button {
   padding: 0 60px;
   max-width: 680px;
   margin: auto;
+  color:rgba(0, 74, 100, 1);
 }
 
 .error__nav {
@@ -354,13 +355,13 @@ button {
 
 @keyframes move {
   0% {
-    transform: rotate(40deg);
+    transform: rotate(20deg);
   }
   50% {
-    transform: rotate(-40deg);
+    transform: rotate(-20deg);
   }
   100% {
-    transform: rotate(40deg);
+    transform: rotate(20deg);
   }
 }
 
@@ -528,41 +529,7 @@ button {
     margin-top: 20px;
   }
 }
-.multi-item-carousel{
-  .carousel-inner{
-    > .item{
-      transition: 500ms ease-in-out left;
-    }
-    .active{
-      &.left{
-        left:-33%;
-      }
-      &.right{
-        left:33%;
-      }
-    }
-    .next{
-      left: 33%;
-    }
-    .prev{
-      left: -33%;
-    }
-    @media all and (transform-3d), (-webkit-transform-3d) {
-      > .item{
-        // use your favourite prefixer here
-        transition: 500ms ease-in-out left;
-        transition: 500ms ease-in-out all;
-        backface-visibility: visible;
-        transform: none!important;
-      }
-    }
-  }
-  .carouse-control{
-    &.left, &.right{
-      background-image: none;
-    }
-  }
-}
+
   footer{
     color:white;
     text-align :center;
@@ -572,7 +539,5 @@ button {
 a{
     color:white;
 }
-
-
   
   
