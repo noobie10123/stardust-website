@@ -563,8 +563,16 @@ button {
       }
     }
   }
-  .container{
-      height:100vh;
+  
+  .img-responsive{
+    width:500px;
+    height:300px;
+  }
+  @media (max-width: 600px) {
+      .img-responsive{
+        width:200px;
+        height:200px;
+      }
   }
   footer{
     color:white;
@@ -575,5 +583,7 @@ button {
 a{
     color:white;
 }
+
+
   
   
