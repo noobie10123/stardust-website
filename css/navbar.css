@@ -1,4 +1,9 @@
 
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> b9ca1067ddc4e6d650e5fa0bb9301c179f6f18f2
 .navbar{
   position: relative;
 }
@@ -6,5 +11,5 @@
   z-index: 150;
   margin-bottom: -50px;
   box-shadow: 0 2px 3px rgba(0,0,0,0);
-  background-image: linear-gradient(0deg, rgba(0, 74, 100, 1) 15%, rgba(0, 51, 76, 1) 35%, rgba(0, 30, 53, 1) 50%, rgba(0, 2, 32, 1) 65%, rgba(0, 0, 4, 1) 85%, rgba(0, 0, 0, 1) 100%);
+  background:dark;
 }
