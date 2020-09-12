@@ -7,6 +7,7 @@ html,body{
     background-color:rgba(0, 0, 5, 1);
 }
 
+
 a{
   font-family:'Shadows Into Light',cursive;
   color:white;
@@ -18,16 +19,18 @@ h4{
 img{
   border-radius:50%;
 }
+ 
+
 /*
 header { border-bottom: 1px solid #ffffff; }
-header > h1 {
+header > h1 { 
     display: inline-block;
     font-size: 40px;
 }
 header span { margin-left: 100px; }
 header{
     font: Raleway;
-
+    
     color: #f1f1f1;
     letter-spacing: 0.4rem;
     width: 50%;
@@ -44,8 +47,8 @@ header{
     background:black;
 }
 .navbar-brand {
-
-    font-family: 'Agency FB', cursive;
+    font-family: 'Philosopher', sans-serif;
+    font-weight: 200;
 }
 #stardust-logo{
     width:90px;
@@ -59,10 +62,10 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     letter-spacing: 10px;
-    font-family: ' Agency FB', 'Philosopher';
+    font-family: 'Agency FB', 'Philosopher';
     color:#00B0F0;
     z-index:-1;
-
+    
   }
   .night{
       z-index:1;
@@ -73,7 +76,7 @@ header{
       text-shadow:1px 1px rgb(31, 72, 126);
       font-weight: bolder;
   }
-
+ 
   section{
       letter-spacing:3px;
       height:100vh;
@@ -90,6 +93,7 @@ header{
      letter-spacing: 5px;
       font-size:1.5rem;
       line-height: 50px;
+      color:white;
   }
   footer{
       color:white;
@@ -102,3 +106,4 @@ header{
   .col{
     padding:70px;
   }
+
