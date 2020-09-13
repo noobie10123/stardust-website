@@ -7,6 +7,7 @@ html,body{
     background-color:rgba(0, 0, 5, 1);
 }
 
+
 a{
   font-family:'Shadows Into Light',cursive;
   color:white;
@@ -18,16 +19,32 @@ h4{
 img{
   border-radius:50%;
 }
+.light-bg{
+    background: #4CA1AF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, rgb(0, 74, 100), #4CA1AF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, rgb(0, 74, 100), #4CA1AF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color:black;
+    
+
+}
+.dark-bg{
+    background-image: linear-gradient(180deg, rgb(0, 74, 100) 15%, rgba(0, 51, 76, 1) 35%, rgba(0, 30, 53, 1) 50%, rgba(0, 2, 32, 1) 65%, rgba(0, 0, 4, 1) 85%, rgba(0, 0, 0, 1) 100%);
+}
+.dark-bg,.light-bg h2{
+    padding-top:100px;
+}
+ 
+
 /*
 header { border-bottom: 1px solid #ffffff; }
-header > h1 {
+header > h1 { 
     display: inline-block;
     font-size: 40px;
 }
 header span { margin-left: 100px; }
 header{
     font: Raleway;
-
+    
     color: #f1f1f1;
     letter-spacing: 0.4rem;
     width: 50%;
@@ -44,8 +61,8 @@ header{
     background:black;
 }
 .navbar-brand {
-
-    font-family: 'Agency FB', cursive;
+    font-family: 'Philosopher', sans-serif;
+    font-weight: 200;
 }
 #stardust-logo{
     width:90px;
@@ -60,10 +77,10 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     letter-spacing: 10px;
-    font-family: ' Agency FB', 'Philosopher';
+    font-family: 'Agency FB', 'Philosopher';
     color:#00B0F0;
     z-index:-1;
-
+    
   }
   .night{
       z-index:1;
@@ -74,7 +91,7 @@ header{
       text-shadow:1px 1px rgb(31, 72, 126);
       font-weight: bolder;
   }
-
+ 
   section{
       letter-spacing:3px;
       height:100vh;
@@ -91,6 +108,7 @@ header{
      letter-spacing: 5px;
       font-size:1.5rem;
       line-height: 50px;
+      color:white;
   }
   footer{
       color:white;
@@ -100,6 +118,23 @@ header{
       padding-top:50%;
   }
 
+<<<<<<< HEAD
 
 
+=======
+  .col{
+    padding:3.5em;
+    flex-grow: 0.5;
+>>>>>>> 5606f9e2a4bb008b082a12aa423dce33fd82e730
   }
+  .center-text
+  {
+      font-size:0.7em;
+  }
+  @media (max-width: 756px) { 
+      .col{
+        flex-grow : 0.7;
+      }
+      
+  }
+
