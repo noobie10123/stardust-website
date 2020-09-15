@@ -1,0 +1,93 @@
+.main{
+    width: 100vw;
+    min-height: 100vh;
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.heading{
+    color: white;
+    text-align: center;
+    padding: 50px 0 ;
+    font-family: 'Philosopher', sans-serif;
+   
+}
+.timeline{
+    width:100vw;
+    height:100vw;
+    display: center;
+    position: relative;
+    text-align: center;
+   
+}
+.content{
+    background-color:rgba(171, 171, 199, 0.1);
+    margin:20px 0;
+    padding: 20px ;
+    border-radius: 5px;
+    position: relative;
+    color:white;
+    font-family: 'Philosopher', sans-serif;
+}
+
+@media(min-width:700px){
+    .content{
+        width:50%;
+    }
+    .content:nth-child(odd){
+        float: left;
+        clear:both;
+        transform: translateX(-25px);
+    }
+    .content:nth-child(even){
+        float: right;
+        clear: both;
+        transform: translateX(25px);
+    }
+    .timeline::before{
+        content:"";
+        width: 1px;
+        height:100%;
+        background:white;
+        position: absolute;
+        top:0;
+        left:50%;
+        transform: translateX(-50%);
+    }
+    .content::before{
+      content:"";
+      width: 16px;
+      height:16px;
+      background:whitesmoke;
+      position: absolute;
+      top:50%;
+      right: -33px;
+      border-radius: 50%;
+      cursor: pointer;
+      transform: translateY(-50%);
+    }
+    .content:nth-child(even)::before{
+        left:-33px;
+    }
+    .content:hover::before{
+        background: crimson;
+
+    }
+    .content::after{
+      content:"";
+      width: 20px;
+      height:20px;
+      background-color:rgba(171, 171, 199, 0.1);
+      position: absolute;
+      top:50%;
+      right: -8px;
+      transform: translateY(-50%) rotate(45deg);
+    }
+    .content:nth-child(even)::after{
+      left:-8px;
+  }
+
+}
+  
