@@ -1,9 +1,7 @@
 /* body{
     background-image: url("https://source.unsplash.com/BtbjCFUvBXs/1920x1080");
 } */
-#body{
-  width:100vw;
-}
+
 html,body{
   height:100vh;
   width:100vw;
@@ -26,8 +24,6 @@ border-radius:50%;
   background: #4CA1AF;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to top, rgb(0, 74, 100), #4CA1AF);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to top, rgb(0, 74, 100), #4CA1AF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color:black;
-
 
 }
 .dark-bg{
@@ -97,7 +93,7 @@ header{
 
 section{
     letter-spacing:3px;
-    height:100vh;
+    min-height:100vh;
     width:100vw;
     color:white;
     text-align: center;
@@ -114,6 +110,7 @@ section{
     color:white;
 }
 footer{
+  background-image: linear-gradient(0deg, rgba(0, 74, 100, 1) 15%, rgba(0, 51, 76, 1) 35%, rgba(0, 30, 53, 1) 50%, rgba(0, 2, 32, 1) 65%, rgba(0, 0, 4, 1) 85%, rgba(0, 0, 0, 1) 100%);
     color:white;
     text-align :center;
     font-family: 'Philosopher', sans-serif;
@@ -129,25 +126,41 @@ footer{
 {
     font-size:0.7em;
 }
-@media (max-width: 756px) {
-    .col{
-      flex-grow : 0.7;
-    }
-     p{
-      float:left;
-    }
-
-}
-
 
 .element img{
 margin-left:auto;
 margin-right:auto;
 display:block;
-height:300px;
-width:300px;
+height:160px;
+width:160px;
 
 }
 .p{
 text-align:center;
+}
+
+
+.about,.achievement,.mission,.vision{
+  background: rgba(0, 0, 0, 0.4);
+  border: 11px outset #1C6EA4;
+  margin-top:40px;
+  color:white;
+  padding:5em;
+}
+@media (max-width: 756px) {
+  .col{
+    flex-grow : 0.7;
+  }
+   p.quote{
+    float:left;
+    padding: 15px;
+  }
+  
+  .element img{
+    
+    float:left;
+    /* height:0px;
+    width:150px; */
+  }
+
 }
