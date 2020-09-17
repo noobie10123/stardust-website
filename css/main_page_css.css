@@ -2,9 +2,9 @@
     background-image: url("https://source.unsplash.com/BtbjCFUvBXs/1920x1080");
 } */
 
-html,body{
-  height:100vh;
-  width:100vw;
+body{
+  
+  margin:0;
   background-color:rgba(0, 0, 5, 1);
 }
 
@@ -141,7 +141,7 @@ text-align:center;
 
 
 .about,.achievement,.mission,.vision{
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.2);
   border: 11px outset #1C6EA4;
   margin-top:40px;
   color:white;
@@ -161,6 +161,9 @@ text-align:center;
     float:left;
     /* height:0px;
     width:150px; */
+  }
+  .about,.achievement,.mission,.vision{
+    padding:1em;
   }
 
 }
