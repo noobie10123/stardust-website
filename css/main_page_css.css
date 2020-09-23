@@ -191,7 +191,7 @@ padding: 10px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height:200vh;
+  max-height:200vh;
 }
 @media (max-width: 756px) {
   .col{
