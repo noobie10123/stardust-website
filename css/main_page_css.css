@@ -3,9 +3,11 @@
 } */
 
 html,body{
-  height:100vh;
-  width:100vw;
+  height:100%;
+  width:100%;
   background-color:rgba(0, 0, 5, 1);
+  max-width:100%;
+  overflow-x:hidden;
 }
 
 
@@ -121,6 +123,9 @@ footer{
 .col{
   padding:3.5em;
   flex-grow: 0.5;
+  margin-left:auto;
+  margin-right:auto;
+
 }
 .center-text
 {
@@ -133,17 +138,18 @@ margin-right:auto;
 display:block;
 height:160px;
 width:160px;
-
+padding: 10px;
 }
-.p{
+p{
 text-align:center;
+
 }
 
 
 .about,.achievement,.mission,.vision{
   background: rgba(0, 0, 0, 0.4);
   border: 11px outset #1C6EA4;
-  margin-top:40px;
+  margin-top:2em;
   color:white;
   padding:5em;
 }
@@ -152,15 +158,14 @@ text-align:center;
     flex-grow : 0.7;
   }
    p.quote{
-    float:left;
-    padding: 15px;
-  }
+   }
   
   .element img{
     
-    float:left;
+    
     /* height:0px;
     width:150px; */
   }
 
 }
+
