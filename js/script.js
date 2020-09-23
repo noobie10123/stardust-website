@@ -9,4 +9,4 @@ $(window).scroll(function() {
   } else {
     mn.removeClass(mns);
   }
-});
+});  
