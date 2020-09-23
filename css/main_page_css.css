@@ -168,12 +168,17 @@ text-align:center;
 
 
 .about,.achievement,.mission,.vision{
-  
-  border: 11px outset #1C6EA4;
+   
   margin-top:2em;
   color:white;
   padding:5em;
   
+}
+.mission{
+  border-right: 11px outset #1C6EA4;
+}
+.vision{
+  border-left:11px outset #1C6EA4;
 }
 .core{
   padding-top:50px;
