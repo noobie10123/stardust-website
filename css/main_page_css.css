@@ -125,11 +125,17 @@ section{
 }
 
 
+
 .lead{
+  margin-top:50px;
    letter-spacing: 5px;
     font-size:1.5rem;
     line-height: 50px;
     color:white;
+}
+.sky{
+  margin-top:50px;
+  background:rgba(0, 0, 0, 0.452);
 }
 footer{
   background-image: linear-gradient(0deg, rgba(0, 74, 100, 1) 15%, rgba(0, 51, 76, 1) 35%, rgba(0, 30, 53, 1) 50%, rgba(0, 2, 32, 1) 65%, rgba(0, 0, 4, 1) 85%, rgba(0, 0, 0, 1) 100%);
@@ -138,8 +144,10 @@ footer{
     font-family: 'Philosopher', sans-serif;
     font-size:1rem;
     padding-top:50%;
-    margin:0px;   
+    
 }
+
+
 
 .col{
   padding:3.5em;
@@ -161,10 +169,7 @@ height:160px;
 width:160px;
 padding: 10px;
 }
-p{
-text-align:center;
 
-}
 
 
 .about,.achievement,.mission,.vision{
@@ -193,6 +198,7 @@ text-align:center;
     flex-grow : 0.7;
   }
    p.quote{
+    
    }
   
   .element img{
