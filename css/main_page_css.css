@@ -127,7 +127,7 @@ section{
 
 
 .lead{
-  margin-top:50px;
+   margin-top:50px;
    letter-spacing: 5px;
     font-size:1.5rem;
     line-height: 50px;
@@ -191,7 +191,7 @@ padding: 10px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  max-height:200vh;
+  height:200vh;
 }
 @media (max-width: 756px) {
   .col{
