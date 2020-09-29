@@ -12,9 +12,9 @@ html,body{
 
 
 a{
-font-family:'Shadows Into Light',cursive;
+font-family:'Palatino';
 color:white;
-font-size:25px;
+font-size:20px;
 }
 h4{
 padding-top:70px;
@@ -174,9 +174,10 @@ padding: 10px;
 
 .about,.achievement,.mission,.vision{
    
-  margin-top:2em;
+ 
   color:white;
-  padding:5em;
+  padding-left:5em;
+  
   
 }
 .mission{
@@ -209,4 +210,6 @@ padding: 10px;
   }
 
 }
+
+	
 

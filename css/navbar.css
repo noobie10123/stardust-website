@@ -3,14 +3,14 @@
 
 .navbar{
   position: relative;
+  font-family: Palatino;
   overflow:auto;
 }
 .navbar.navbar-expand-lg {
   z-index: 150;
-  margin-bottom: -50px;
   box-shadow: 0 2px 3px rgba(0,0,0,0);
   background-color:rgba(0, 2, 32, 1);
-  
+  margin-bottom:-50px;
 }
 
 .sticky-top {
