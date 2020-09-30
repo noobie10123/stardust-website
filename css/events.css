@@ -27,14 +27,14 @@ label {
   cursor: pointer;
 }
 
-a {
+/* a {
   margin: 0;
   padding: 0;
   vertical-align: baseline;
   background: transparent;
   text-decoration: none;
   color: #000;
-}
+} */
 
 input, select, button, textarea {
   margin: 0;
@@ -42,7 +42,7 @@ input, select, button, textarea {
 }
 
 html, div, span, applet, object, iframe, h2, h3, h4, h5, h6, blockquote, pre,
-a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp,
+a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, input {
   border: 0;
@@ -435,10 +435,10 @@ button {
   overflow: hidden;
   max-height: 100vh;
 }
-@media (max-width: 1400px) {
+
 @media (min-width: 1400px) {
   .lamp {
-    zoom: .5;
+    zoom: .7;
   }
   .error__content {
     top: 55%;
@@ -447,18 +447,17 @@ button {
     font-size: 3.5rem;
   }
  ul.adaptive-slider{
-   width:1000px;
-   height:600px;
-   max-width:70vw;
-   max-height:80vh;
+
+   width:70vw;
+   height:80vh;
  }
  ul.adaptive-slider li.slider-item figure figcaption p{
    font-size: 2.5em;
  }
  ul.adaptive-slider li.slider-item figure figcaption{
    max-width:90vw;
-   left:5vw;
-   right:5vw;
+   left:4vw;
+
  }
  ul.adaptive-slider li.slider-nav{
  line-height: 80vh;
@@ -490,7 +489,7 @@ button {
  ul.adaptive-slider li.slider-item figure figcaption{
    max-width:90vw;
    left:5vw;
-   right:5vw;
+
  }
  ul.adaptive-slider li.slider-nav{
  line-height: 80vh;
@@ -512,10 +511,10 @@ button {
     top: 55%;
   }
   ul.adaptive-slider{
-    width:750px;
+
     max-width:70vw;
     padding:10px;
-    height:600px;
+
     max-height:80vh;
   }
   ul.adaptive-slider li.slider-nav{
@@ -527,11 +526,11 @@ button {
     font-size: 2.5em;
   }
   section{
-    height:100vh;
+    height:100vh;}
   ul.adaptive-slider li.slider-item figure figcaption{
     max-width:90vw;
     left:5vw;
-    right:5vw;
+
   }
 
 
@@ -561,10 +560,10 @@ button {
     padding-bottom: 0;
   }
   ul.adaptive-slider{
-    width: 750px;
+
     max-width: 70vw;
     padding:10px;
-    height:600px;
+
     max-height:80vh;
   }
   ul.adaptive-slider li.slider-item figure figcaption p{
@@ -572,16 +571,14 @@ button {
   }
   ul.adaptive-slider li.slider-item figure figcaption{
     max-width:90vw;
-    left:5vw;
-    right:5vw;
+    left:7vw;
+
   }
   ul.adaptive-slider li.slider-nav{
   line-height: 80vh;
   width:5vw;
  }
-  section{
-    height:100vh;
-  }
+
 
 }
 @media (max-width: 750px) {
@@ -600,10 +597,8 @@ button {
     height: 100vh;
   }
   ul.adaptive-slider{
-    width:550px;
     max-width:70vw;
     padding:10px;
-    height:595px
     max-height:80vh;
   }
   ul.adaptive-slider li.slider-item figure figcaption p{
@@ -642,10 +637,10 @@ button {
     padding-top: 180px;
   }
   ul.adaptive-slider{
-    width:450px;
+
     width:70vw;
 
-    height:590px;
+
     height:80vh;
   }
   ul.adaptive-slider li.slider-item figure figcaption p{
@@ -696,14 +691,13 @@ button {
   }
   ul.adaptive-slider li.slider-item figure figcaption p{
     padding-top:2.5em;
+    font-size:1.2em;
   }
 
-  ul.adaptive-slider li.slider-item figure figcaption p{
-    font-size: 1.2em;
-  }
   ul.adaptive-slider li.slider-item figure figcaption{
     left:5vw;
-    width:54vw;
+    padding-left:50px;
+    width:60vw;
     right:5vw;
   }
 

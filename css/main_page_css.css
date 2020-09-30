@@ -5,10 +5,10 @@
 html,body{
   height:100%;
   width:100%;
-  background-color:rgba(0, 0, 5, 1);
+
   background-color:black;
   max-width:100%;
-  overflow-x:hidden;
+
 
 }
 
@@ -24,12 +24,12 @@ padding-top:70px;
 img{
 border-radius:50%;
 }
-.about{
+
 #about{
   background: #4CA1AF;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to top, rgb(0, 74, 100), #4CA1AF);  /* Chrome 10-25, Safari 5.1-6 */
   background: url(https://i.ytimg.com/vi/B1R3dTdcpSU/maxresdefault.jpg);
-  background-image:url("/Users/ananya/stardust/stardust-website/img/back4.jpg");
+  background-image:url(https://images.unsplash.com/photo-1445905595283-21f8ae8a33d2?ixlib=rb-1.2.1&auto=format&fit=crop&w=752&q=80);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -37,7 +37,7 @@ border-radius:50%;
   color:rgb(207, 234, 238);
 }
 #mission{
-  background-image:url("/Users/ananya/stardust/stardust-website/img/back1.jpg");
+  background-image:url(https://images.unsplash.com/photo-1472712739516-7ad2b786e1f7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
   margin:150px;
   background-size: cover;
   background-position: center;
@@ -61,6 +61,7 @@ border-radius:50%;
   font-weight:bolder;
 
 }
+
 .dark-bg{
   background-image: linear-gradient(180deg, rgb(0, 74, 100) 15%, rgba(0, 51, 76, 1) 35%, rgba(0, 30, 53, 1) 50%, rgba(0, 2, 32, 1) 65%, rgba(0, 0, 4, 1) 85%, rgba(0, 0, 0, 1) 100%);
 }
@@ -196,7 +197,7 @@ text-align:center;
 
 
 
-.about,.achievement,.mission,.vision{
+
 
 /* .achievement,.mission,.vision{
 
@@ -222,7 +223,7 @@ text-align:center;
 }
 
 } */
-.core{
+#core{
   padding-top:50px;
   background-image: url(https://images.unsplash.com/photo-1541185934-01b600ea069c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
   background-size: cover;
