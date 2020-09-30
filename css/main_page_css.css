@@ -54,6 +54,12 @@ border-radius:50%;
   color:white;
   font-weight:bolder;
 
+  background-position: center;
+  background-repeat: no-repeat;
+  height:100vh;
+  color:white;
+  font-weight:bolder;
+
 }
 .dark-bg{
   background-image: linear-gradient(180deg, rgb(0, 74, 100) 15%, rgba(0, 51, 76, 1) 35%, rgba(0, 30, 53, 1) 50%, rgba(0, 2, 32, 1) 65%, rgba(0, 0, 4, 1) 85%, rgba(0, 0, 0, 1) 100%);
@@ -134,14 +140,21 @@ section{
     font-size:1.2em;
 
 
+
 }
 
 
+
 .lead{
+   margin-top:50px;
    letter-spacing: 5px;
     font-size:1.5rem;
     line-height: 50px;
     color:white;
+}
+.sky{
+  margin-top:50px;
+  background:rgba(0, 0, 0, 0.452);
 }
 footer{
   background-image: linear-gradient(0deg, rgba(0, 74, 100, 1) 15%, rgba(0, 51, 76, 1) 35%, rgba(0, 30, 53, 1) 50%, rgba(0, 2, 32, 1) 65%, rgba(0, 0, 4, 1) 85%, rgba(0, 0, 0, 1) 100%);
@@ -150,9 +163,11 @@ footer{
     font-family: 'Philosopher', sans-serif;
     font-size:1rem;
     padding-top:50%;
-    margin:0px;   
+    margin:0px;
     margin:0px;
 }
+
+
 
 .col{
   padding:3.5em;
@@ -180,14 +195,30 @@ text-align:center;
 }
 
 
+
 .about,.achievement,.mission,.vision{
-  
+
 /* .achievement,.mission,.vision{
 
   border: 11px outset #1C6EA4;
   margin-top:2em;
   color:white;
   padding:5em;
+
+}
+.mission{
+  border-right: 11px outset #1C6EA4;
+}
+.vision{
+  border-left:11px outset #1C6EA4;
+}
+.core{
+  padding-top:50px;
+  background-image: url(https://images.unsplash.com/photo-1541185934-01b600ea069c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height:200vh;
 }
 
 } */

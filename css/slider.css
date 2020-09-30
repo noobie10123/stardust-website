@@ -108,7 +108,7 @@ ul.adaptive-slider li.slider-item figure figcaption {
   position: absolute;
   bottom: 0;
   left: 60px;
-  
+
   z-index: 1;
   max-height: 6em;
   overflow: hidden;
