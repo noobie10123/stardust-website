@@ -14,9 +14,9 @@ html,body{
 
 
 a{
-font-family:'Shadows Into Light',cursive;
+font-family:'Palatino';
 color:white;
-font-size:25px;
+font-size:20px;
 }
 h4{
 padding-top:70px;
@@ -199,12 +199,19 @@ text-align:center;
 
 
 
+
 /* .achievement,.mission,.vision{
 
   border: 11px outset #1C6EA4;
   margin-top:2em;
   color:white;
   padding:5em;
+
+.about,.achievement,.mission,.vision{
+   
+ 
+  color:white;
+  padding-left:5em;
 
 }
 .mission{
@@ -246,3 +253,4 @@ text-align:center;
   }
 
 }
+
