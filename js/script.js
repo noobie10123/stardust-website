@@ -9,6 +9,6 @@ $(window).scroll(function() {
   } else {
     mn.removeClass(mns);
   }
-});  
-
+});
+AOS.init();
 

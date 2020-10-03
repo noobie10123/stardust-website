@@ -5,9 +5,11 @@
 html,body{
   height:100%;
   width:100%;
-  background-color:rgba(0, 0, 5, 1);
+
+  background-color:black;
   max-width:100%;
-  overflow-x:hidden;
+
+
 }
 
 
@@ -22,17 +24,27 @@ padding-top:70px;
 img{
 border-radius:50%;
 }
-.about{
+
+#about{
   background: #4CA1AF;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to top, rgb(0, 74, 100), #4CA1AF);  /* Chrome 10-25, Safari 5.1-6 */
   background: url(https://i.ytimg.com/vi/B1R3dTdcpSU/maxresdefault.jpg);
+  background-image:url(https://images.unsplash.com/photo-1445905595283-21f8ae8a33d2?ixlib=rb-1.2.1&auto=format&fit=crop&w=752&q=80);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  margin:150px;
   color:rgb(207, 234, 238);
 }
+#mission{
+  background-image:url(https://images.unsplash.com/photo-1472712739516-7ad2b786e1f7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+  margin:150px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .achievement{
-  
+
   background: url(https://space.biz.pl/wp-content/uploads/2019/11/home-banner.jpg);
   background-size: cover;
 
@@ -41,8 +53,15 @@ border-radius:50%;
   height:100vh;
   color:white;
   font-weight:bolder;
-  
+
+  background-position: center;
+  background-repeat: no-repeat;
+  height:100vh;
+  color:white;
+  font-weight:bolder;
+
 }
+
 .dark-bg{
   background-image: linear-gradient(180deg, rgb(0, 74, 100) 15%, rgba(0, 51, 76, 1) 35%, rgba(0, 30, 53, 1) 50%, rgba(0, 2, 32, 1) 65%, rgba(0, 0, 4, 1) 85%, rgba(0, 0, 0, 1) 100%);
 }
@@ -75,7 +94,7 @@ header{
 /*             */
 .navbar{
   background:rgb(97, 31, 31);
-  
+
 }
 .navbar-brand {
   font-family: 'Philosopher', sans-serif;
@@ -88,7 +107,7 @@ header{
 .masthead {
   height: 100vh;
   min-height: 300px;
-  
+
   background-image: linear-gradient(0deg, rgba(0, 74, 100, 1) 15%, rgba(0, 51, 76, 1) 35%, rgba(0, 30, 53, 1) 50%, rgba(0, 2, 32, 1) 65%, rgba(0, 0, 4, 1) 85%, rgba(0, 0, 0, 1) 100%);
   background-image: linear-gradient(0deg, rgba(0, 74, 100, 1) 15%, rgba(0, 51, 76, 1) 35%, rgba(0, 30, 53, 1) 50%, rgba(0, 2, 32, 1) 65%, rgba(0, 0, 4, 1) 85%, rgba(0, 0, 0, 1) 100%);
   background-size: cover;
@@ -102,7 +121,7 @@ header{
 }
 .night{
     z-index:1;
-    
+
 }
 
 .masthead h1{
@@ -120,7 +139,8 @@ section{
     text-align: center;
     font-family: 'Philosopher', sans-serif;
     font-size:1.2em;
-    
+
+
 
 }
 
@@ -144,7 +164,8 @@ footer{
     font-family: 'Philosopher', sans-serif;
     font-size:1rem;
     padding-top:50%;
-    
+    margin:0px;
+    margin:0px;
 }
 
 
@@ -169,16 +190,29 @@ height:160px;
 width:160px;
 padding: 10px;
 }
+p{
+text-align:center;
+
+}
 
 
+
+
+
+
+/* .achievement,.mission,.vision{
+
+  border: 11px outset #1C6EA4;
+  margin-top:2em;
+  color:white;
+  padding:5em;
 
 .about,.achievement,.mission,.vision{
    
  
   color:white;
   padding-left:5em;
-  
-  
+
 }
 .mission{
   border-right: 11px outset #1C6EA4;
@@ -194,22 +228,29 @@ padding: 10px;
   background-repeat: no-repeat;
   height:200vh;
 }
+
+} */
+#core{
+  padding-top:50px;
+  background-image: url(https://images.unsplash.com/photo-1541185934-01b600ea069c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height:200vh;
+}
 @media (max-width: 756px) {
   .col{
     flex-grow : 0.7;
   }
    p.quote{
-    
    }
-  
+
   .element img{
-    
-    
+
+
     /* height:0px;
     width:150px; */
   }
 
 }
-
-	
 

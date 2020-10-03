@@ -10,14 +10,13 @@
         <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-	
-
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
         <link rel="stylesheet" href="css/cardstyle.css">
         <link rel="stylesheet" type="text/css" href="css/stars.css">
         <link rel="stylesheet" type="text/css" href="css/navbar.css">
         <link rel="stylesheet" type="text/css" href="css/main_page_css.css">
-       
+
         <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
         <!-- <link href = "css/hover.scss" rel = "stylesheet" type = "text/css"/> -->
@@ -54,7 +53,7 @@
                   <div class="col-12 text-center">
                     <h1 class="font-weight-light animate__animated animate__backInDown" style="font-size:5vw;">S.T.A.R.D.U.S.T</h1>
                   <h2 class="lead animate__animated animate__backInDown" style="font-size:3.5vw;">Satellite Technology And Research Division Under Students</h2>
-                  <h2 class="lead animate__animated animate__backInDown sky"style="font-size:2vw;">The sky is only the beginning</h2>
+                  <h2 class="lead animate__animated animate__backInDown"style="font-size:2vw;">The sky is only the beginning</h2>
                   </div>
 
               </div>
@@ -87,11 +86,11 @@
                     <li class="nav-item">
                         <a class="nav-link" href="contacts.html">Contact</a>
                     </li>
-			
-					
+
+
                     </ul>
                 </div>
-               </div> 
+               </div>
             </nav>
 
 
@@ -101,21 +100,25 @@
 
 
         <!-- Page Content -->
-        <section class="py-5 light-bg" >
-            <div class="container about">
-              
-            <h2 style ="padding:50px;">About Us</h2>
+        <section class="py-5 light-bg" id = "about" >
+<div class = "container about" data-aos="fade-up" style = "text-align:center; margin:auto;">
 
+
+            <h2>About Us</h2>
+        <br><br>
             <p>S.T.A.R.D.U.S.T standing for Satellite Technology and Research Division under STudents, is the student satlliete club of Ramaiah Institute of Technology formed in 2019 under the support and guidance of the Department of Electronics and Communication Engineering with an intention of providing undergraduate engineering students a platform to render their imagination, curiosity and dreams in the field of Space Science and Technology.</p>
 
+</div>
 
 
-            </div>
+
         </section>
-        <section class="py-5" style = "background-image: linear-gradient(0deg, rgba(0, 74, 100, 1) 15%, rgba(0, 51, 76, 1) 35%, rgba(0, 30, 53, 1) 50%, rgba(0, 2, 32, 1) 65%, rgba(0, 0, 4, 1) 85%, rgba(0, 0, 0, 1) 100%); }">
-            <div class="container mission">
-            <h2>Mission</h2>
 
+
+        <section class="py-5" id = mission>
+            <div class="container mission" data-aos="fade-right">
+            <h2>Mission</h2>
+<br><br>
             <div class = "element" style = "float:left;">
             <img  src = "img/vision-1.jpeg">
             </div>
@@ -124,14 +127,14 @@
 
 </div>
 <div style="clear: both;"></div>
-        </section>
-        <section class="py-5 dark-bg">
-            <div class="container vision">
+ <br><br><br><br>
+
+            <div class="container vision" data-aos="fade-left">
             <h2>Vision</h2>
             <div class = "element" style = "float:right">
             <img src = "img/vision-2.jpeg">
             </div>
-            <p class="quote" >To successfully design, fabricate and operate an indigenous small satellite with the purpose of providing useful contribution in the field of Space Technology.</p>
+            <p class="quote"style = "padding-top:50px;" >To successfully design, fabricate and operate an indigenous small satellite with the purpose of providing useful contribution in the field of Space Technology.</p>
             </div>
             <div style="clear: both;"></div>
         </section>
@@ -141,7 +144,7 @@
             <p>We believe achieving is the way forward</p>
             </div>
         </section>
-        <section class="core" >
+        <section class= "py-5" id="core">
 
            <h2 style = "padding-bottom:50px;">Our backbone: Core and Faculty</h2>
 
@@ -445,10 +448,19 @@
 
 </section>
 
+
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
         <script src = "js/script.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+  $(function(){
+    AOS.init({
+      duration:2000,
+    });
+  });
+  </script>
     </body>
 
 </html>

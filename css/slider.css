@@ -2,7 +2,7 @@
 
 ul.adaptive-slider {
   margin: 0 auto;
-  padding: 0;
+  padding-top: 50px;
   width: 1080px;
   height: 600px;
   position: relative;
@@ -28,6 +28,9 @@ ul.adaptive-slider li.slider-nav {
   line-height: 600px;
   height: 590px;
   width: 60px;
+  line-height:calc(100%-600px);
+  max-height: 590px;
+  max-width: 60px;
   background-color:#ffffff00;
   opacity:0;
   border-top-left-radius: 10px;
@@ -41,6 +44,7 @@ ul.adaptive-slider li.slider-nav {
   -moz-transition: opacity 0.3s, background-color 0.0s,color:0.3s;
   -o-transition: opacity 0.3s, background-color 0.0s,color:0.3s;
   transition: opacity 0.3s, background-color 0.0s,color:0.3s;
+
 }
 
 ul.adaptive-slider li.slider-nav:hover {
@@ -50,6 +54,7 @@ ul.adaptive-slider li.slider-nav:hover {
 
 ul.adaptive-slider li.slider-nav.next {
   right: 0;
+
 }
 
 ul.adaptive-slider li.slider-nav.prev {
@@ -102,7 +107,8 @@ ul.adaptive-slider li.slider-item figure figcaption {
   text-align: center;
   position: absolute;
   bottom: 0;
-  left: 60px;
+  /* left:60px; */
+
   z-index: 1;
   max-height: 6em;
   overflow: hidden;
