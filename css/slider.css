@@ -49,7 +49,7 @@ ul.adaptive-slider li.slider-nav {
 
 ul.adaptive-slider li.slider-nav:hover {
   background-color:#ffffff00;
-  opacity:0.3;
+  opacity:0;
 }
 
 ul.adaptive-slider li.slider-nav.next {
@@ -120,7 +120,7 @@ ul.adaptive-slider li.slider-item figure figcaption {
 }
 
 ul.adaptive-slider li.slider-item figure figcaption h1 {
-  line-height: 3em;
+
   margin: 0;
   font-weight: 400;
 }
@@ -130,8 +130,8 @@ ul.adaptive-slider li.slider-item figure figcaption p {
   padding: 0 50px 20px 50px;
   display: block;
   overflow: hidden;
-  text-align: justify;
-  font-size:2.5em;
+  text-align: center;
+
 }
 
 ul.adaptive-slider li.slider-item figure figcaption:hover {

@@ -453,6 +453,7 @@ button {
  }
  ul.adaptive-slider li.slider-item figure figcaption p{
    font-size: 2.5em;
+   padding-top:50px;
  }
  ul.adaptive-slider li.slider-item figure figcaption{
    max-width:90vw;
@@ -485,6 +486,7 @@ button {
  }
  ul.adaptive-slider li.slider-item figure figcaption p{
    font-size: 2.5em;
+   padding-top:40px;
  }
  ul.adaptive-slider li.slider-item figure figcaption{
    max-width:90vw;
@@ -524,6 +526,7 @@ button {
   }
   ul.adaptive-slider li.slider-item figure figcaption p{
     font-size: 2.5em;
+    padding-top:5px;
   }
   section{
     height:100vh;}
@@ -568,6 +571,7 @@ button {
   }
   ul.adaptive-slider li.slider-item figure figcaption p{
     font-size: 2.5em;
+    padding-top:30px;
   }
   ul.adaptive-slider li.slider-item figure figcaption{
     max-width:90vw;
@@ -603,6 +607,7 @@ button {
   }
   ul.adaptive-slider li.slider-item figure figcaption p{
     font-size: 2em;
+    padding-top:5px;
   }
   ul.adaptive-slider li.slider-nav{
     height:100%;
@@ -644,12 +649,17 @@ button {
     height:80vh;
   }
   ul.adaptive-slider li.slider-item figure figcaption p{
-    font-size: 1.8em;
+    font-size: 1.2em;
+    padding-top:5px;
   }
   ul.adaptive-slider li.slider-item figure figcaption{
     max-width:90vw;
-    left:5vw;
+    left:13vw;
     right:5vw;
+  }
+  ul.adaptive-slider li.slider-item figure figcaption h1{
+    font-size:2em;
+    padding-bottom:25px;
   }
   ul.adaptive-slider li.slider-nav{
   line-height: 80vh;
@@ -674,9 +684,9 @@ button {
     margin-top: 20px;
   }
   ul.adaptive-slider{
-    width:380px;
-    width:400px;
-    height:400px;
+    width:80vw;
+    height:60vh;
+    margin-left:50px;
   }
   section{
     height:100vh;
@@ -685,13 +695,19 @@ button {
     line-height: 80vh;
   }
   ul.adaptive-slider li.slider-item figure figcaption h1{
-    font-size:2.5em;
-    line-height:1em;
-    padding-top:5px;
+    font-size:1.6em;
+    left:0.2em;
+    overflow-Y: scroll;
+    /* padding-right:50px; */
+    text-align:justify;
   }
   ul.adaptive-slider li.slider-item figure figcaption p{
-    padding-top:2.5em;
-    font-size:1.2em;
+
+    line-height: 1em;
+    font-size:1em;
+    text-align: center;
+    padding-left:2px;
+    padding-top:40px;
   }
 
   ul.adaptive-slider li.slider-item figure figcaption{
@@ -709,9 +725,11 @@ button {
   }
   ul.adaptive-slider li.slider-item figure figcaption p{
     font-size:1.2em;
+    padding-right:5px;
   }
   ul.adaptive-slider li.slider-item figure figcaption h1{
     font-size:2em;
+
   }
 ul.adaptive-slider li.slider-nav{
   width:5vw;
