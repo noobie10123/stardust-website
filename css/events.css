@@ -18,7 +18,7 @@ html, body {
 body {
   padding: 0;
   margin: 0;
-  background: rgba(0, 74, 100, 1);
+  background: #0B2027;
   font-size: 14px;
   line-height: 1;
 }
@@ -191,7 +191,7 @@ button {
 
 .error__message {
   text-align: center;
-  color: #181828;
+  color: #F6F1D1;
 }
 
 .message__title {
@@ -212,7 +212,7 @@ button {
   padding: 0 60px;
   max-width: 680px;
   margin: auto;
-  color:rgba(0, 74, 100, 1);
+  color:#0B2027;
 }
 
 .error__nav {

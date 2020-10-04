@@ -1,9 +1,9 @@
 /*Styling for subsystem.html*/
 
 html,body{
-  height:100vh;
-  width:100%;
-  background-color:rgba(0, 0, 5, 1);
+  height:100%;
+  max-width:100%;
+  
 }
 .main{
     width: 100vw;
@@ -27,17 +27,20 @@ html,body{
     min-height:115vw;
     display: center;
     position: relative;
-    text-align: center;
+    text-align: center; 
    
 }
 .content{
-    background-color:rgb(105, 143, 212);
+    background-color:#40798C;
     margin:20px 0;
     padding: 20px ;
     border-radius: 5px;
     position: relative;
     color:white;
-    font-family: 'Philosopher', sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.flip-box-front h2{
+  color: #0B2027;
 }
 
 @media(min-width:700px){
@@ -141,10 +144,12 @@ html,body{
   }
   
   .flip-box-front {
-    background-color: rgb(99, 148, 212);;
-    color: black;
+    background-color: #40798C;
+    color: #F6F1D1;
     padding:20px;
-    letter-spacing:2px;
+    letter-spacing:1.3px;
+    font-weight:bold;
+    line-height: 2em;
 	
   }
   
