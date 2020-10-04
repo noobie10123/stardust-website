@@ -10,3 +10,5 @@ $(window).scroll(function() {
     mn.removeClass(mns);
   }
 });
+AOS.init();
+
