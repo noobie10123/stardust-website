@@ -197,13 +197,16 @@ text-align:center;
 }
 
 
+.about,.achievement,.mission,.vision{
+  background: rgba(0, 0, 0, 0.2);
+}
 
 
 
 
 /* .achievement,.mission,.vision{
 
-  border: 11px outset #1C6EA4;
+ border: 11px outset #1C6EA4;
   margin-top:2em;
   color:white;
   padding:5em;
@@ -251,6 +254,9 @@ text-align:center;
 
     /* height:0px;
     width:150px; */
+  }
+  .about,.achievement,.mission,.vision{
+    padding:1em;
   }
 
 }
