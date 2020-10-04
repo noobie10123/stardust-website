@@ -19,6 +19,10 @@
 .navbar-dark .navbar-nav .nav-link {
   color:black;
 }
+.navbar-dark .navbar-toggler {
+  color: black;
+  border-color: black;
+}
 
 .sticky-top {
 	position:sticky;

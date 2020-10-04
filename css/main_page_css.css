@@ -41,7 +41,6 @@ border-radius:50%;
 }
 #mission{
   background-image:url(https://images.unsplash.com/photo-1472712739516-7ad2b786e1f7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
-  
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -53,7 +52,7 @@ border-radius:50%;
 
   background-position: center;
   background-repeat: no-repeat;
-  height:100vh;
+  max-height:150vh;
   color:white;
   font-weight:bolder;
 
@@ -254,5 +253,43 @@ text-align:center;
     width:150px; */
   }
 
+}
+ .cards{
+   width: 100%;
+   height:60%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+  justify-content: center; /* space-between as we add more achievements */
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  flex: 0 1 25%;
+  background:transparent;
+}
+.card img{
+  border-radius:0px;
+  height: 40%;
+  max-width:100%;
+}
+@media (max-width: 756px) {
+
+  .card{
+    flex:0.3 1 30%;
+  }
+
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(226, 209, 209, 0.2);
+}
+
+/* Add some padding inside the card container */
+.conferences{
+  padding: 2px 16px;
 }
 
