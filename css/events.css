@@ -703,7 +703,7 @@ button {
   }
   ul.adaptive-slider li.slider-item figure figcaption h1{
     font-size:1.6em;
-    left:0.4em;
+    left:0.3em;
     overflow-Y: scroll;
     /* padding-right:50px; */
     text-align:justify;
@@ -738,7 +738,7 @@ button {
   ul.adaptive-slider li.slider-item figure figcaption h1{
     font-size:2em;
     padding-top:10px;
-    left:0.4em;
+    left:0.3em;
 
   }
 ul.adaptive-slider li.slider-nav{
