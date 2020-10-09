@@ -160,6 +160,9 @@ section{
     line-height: 50px;
     color:white;
 }
+.lead-main{
+  background: rgba(0,0,0,0.3);
+}
 .sky{
   margin-top:50px;
   background:rgba(0, 0, 0, 0.452);
