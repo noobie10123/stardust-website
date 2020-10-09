@@ -377,11 +377,11 @@ textarea {
 }
 .socialicons ul li a.twitter:hover{
     background:url('../img/img-sprite.png') no-repeat -50px -50px;
-    
+
 }
 .socialicons ul li a.google:hover{
     background:url('../img/img-sprite.png') no-repeat -100px -50px;
-    
+
 }
 .socialicons ul li a.pinterest:hover{
     background:url('../img/img-sprite.png') no-repeat -150px -50px;
@@ -473,4 +473,5 @@ h2, h3.w3ls {
 #stardust-logo{
     width:90px;
     height:90px;
+    border-radius:50%;
   }
