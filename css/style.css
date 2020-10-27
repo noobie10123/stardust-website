@@ -3,7 +3,14 @@
 html,body{
   height:100%;
   max-width:100%;
+  overflow-x: hidden;
   
+}
+.sticky-top {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0 !important;
+  z-index: 1020;
 }
 .main{
     width: 100vw;
@@ -13,13 +20,21 @@ html,body{
     justify-content: center;
     align-content: center;
     flex-direction: column;
+    overflow-x: hidden;
 }
 .heading{
-    color: white;
-    text-align: center;
-    padding: 50px 0 ;
-    font-family: 'Philosopher', sans-serif;
-   
+  color: white;
+  text-align: center;
+  margin-top:50px;
+  padding: 50px 0 ;
+  font-family: 'cursive', sans-serif;
+  letter-spacing: 2px;
+  border: 5px solid white;
+  box-sizing: content-box; 
+  border-radius:10px 100px;
+  background:rgb(103,173,213);
+  overflow-x: hidden;
+ 
 }
 .timeline{
     margin:5%;
@@ -28,16 +43,20 @@ html,body{
     display: center;
     position: relative;
     text-align: center; 
+    overflow-x: hidden;
+    
    
 }
 .content{
-    background-color:#40798C;
+   background:rgb(103,173,213);
     margin:20px 0;
     padding: 20px ;
     border-radius: 5px;
     position: relative;
     color:white;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Viduloka;
+    font-size:1.2em;
+    
 }
 .flip-box-front h2{
   color: #0B2027;
@@ -50,12 +69,10 @@ html,body{
     .content:nth-child(odd){
         float: left;
         clear:both;
-        transform: translateX(-25px);
     }
     .content:nth-child(even){
         float: right;
         clear: both;
-        transform: translateX(25px);
     }
     .timeline::before{
         content:"";
@@ -144,7 +161,7 @@ html,body{
   }
   
   .flip-box-front {
-    background-color: #40798C;
+    background:rgb(75, 140, 179);
     color: #F6F1D1;
     padding:20px;
     letter-spacing:1.3px;
