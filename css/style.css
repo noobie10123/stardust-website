@@ -4,6 +4,7 @@ html,body{
   height:100%;
   max-width:100%;
   overflow-x: hidden;
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
   
 }
 .sticky-top {
@@ -15,7 +16,6 @@ html,body{
 .main{
     width: 100vw;
     min-height: 100vh;
-    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
     display: flex;
     justify-content: center;
     align-content: center;
@@ -200,4 +200,9 @@ p {
 
 h2 {
 	font-size: 2em;
+}
+
+/* css for achievements page*/
+tbody::nth-child(even) {
+  background: blue;
 }
