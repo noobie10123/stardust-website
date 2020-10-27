@@ -134,7 +134,8 @@ html,body{
     border: 1px solid #f1f1f1;
     perspective: 1000px;
 	word-wrap:break-word;
-	overflow:hidden;
+  overflow:hidden;
+  padding:10px;
   }
   
   .flip-box-inner {
@@ -144,7 +145,7 @@ html,body{
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
-	font-size: 85%;
+	  font-size: 85%;
   }
   
   .flip-box:hover .flip-box-inner {
@@ -201,6 +202,25 @@ p {
 h2 {
 	font-size: 2em;
 }
+
+/*css for neon buttons */
+
+h1 a{
+  position:relative;
+  display:inline-block;
+  padding:5px 10px;
+  color: #2196f3;
+  text-decoration:none;
+  overflow:hidden;
+  transition:0.2s;  
+}
+h1 a:hover{
+  color:#255784;
+  background:rgb(103,173,213);
+  box-shadow: 0 0 10px rgb(103,173,213),0 0 10px rgb(103,173,213),0 0 10px rgb(103,173,213);
+
+}
+
 
 /* css for achievements page*/
 

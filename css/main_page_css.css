@@ -87,7 +87,7 @@ img{
   background-position: center;
   background-repeat: no-repeat;
   letter-spacing: 10px;
-  font-family: 'Agency FB', 'Philosopher';
+  font-family: 'Agency FB', 'Palatino';
   color:#00B0F0;
   z-index:-1;
 
@@ -110,7 +110,7 @@ section{
     overflow-x: hidden;
     color:white;
     text-align: center;
-    font-family: 'Philosopher', sans-serif;
+    font-family: 'Palatino';
     font-size:1.2em;
 
 
