@@ -500,11 +500,11 @@ button {
   }
   ul.adaptive-slider li.slider-item figure figcaption h1{
     font-size:1.6em;
-    left:0.4em;
+    left:0.3em;
     overflow-Y: scroll;
     /* padding-right:50px; */
     text-align:justify;
-    padding-top:10px;
+    padding-top:12px;
   }
   ul.adaptive-slider li.slider-item figure figcaption p{
 
@@ -534,8 +534,8 @@ button {
   }
   ul.adaptive-slider li.slider-item figure figcaption h1{
     font-size:2em;
-    padding-top:10px;
-    left:0.4em;
+    padding-top:12px;
+    left:0.3em;
 
   }
 ul.adaptive-slider li.slider-nav{
