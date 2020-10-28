@@ -6,7 +6,7 @@
 --*/
 
 /*-- Reset-Code --*/
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;}
 article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
 ol,ul{list-style:none;margin:0px;padding:0px;}
 blockquote,q{quotes:none;}
@@ -35,7 +35,6 @@ font-family:'Palatino';
 background-attachment: fixed;
 background-position: center;
 }
-
 
 h1,h2,h3,h4,h5,h6{
 font-family: 'Palatino', sans-serif;
@@ -108,8 +107,9 @@ font-family: 'Palatino', sans-serif;
 input[type="submit"]:hover{
 background: #000;
 }
+
 textarea{
-width:94%;
+width:94%
 padding:15px;
 background: #fff;
 border:none;
@@ -357,6 +357,7 @@ textarea {
 h1 {
     font-size: 32px;
     margin-bottom:40px;
+	margin-top:70px;
 }
 input[type="text"] {
     padding:9px;
@@ -372,7 +373,7 @@ h1 {
 }
 @media(max-width:375px){
 .container-1{
-    width: 84%;
+    width: 100%;
 }
 }
 @media(max-width:320px){
@@ -382,6 +383,7 @@ h1 {
 h1{
     margin-bottom:35px;
     font-size:26px;
+	margin-top:50px;
 }
 h2, h3.w3ls {
     font-size: 20px;
