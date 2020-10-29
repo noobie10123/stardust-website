@@ -51,6 +51,11 @@ fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, 
   vertical-align: baseline;
   background: transparent;
 }
+iframe{
+  width:560px;
+  height:315px;
+}
+
 
 
 
@@ -485,6 +490,10 @@ button {
   section{
     height:100vh;
   }
+  iframe{
+    width:480px;
+    height:315px;
+  }
 
   }
 @media (max-width: 480px) {
@@ -497,7 +506,10 @@ button {
     height:100vh;
     height:100%;
     width:5vw;
-    line-height: 80vh;
+    line-height: 5vh;
+  }
+  ul.adaptive-slider li.slider-item figure img{
+    height:50%;
   }
   ul.adaptive-slider li.slider-item figure figcaption h1{
     font-size:1.6em;
@@ -547,6 +559,10 @@ ul.adaptive-slider li.slider-item figure figcaption{
   left:5vw;
   right:5vw;
   max-width:90vw;
+}
+iframe{
+  width:200px;
+  height:310px;
 }
 
 }
