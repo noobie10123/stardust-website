@@ -482,7 +482,7 @@ button {
     right:5vw;
   }
   ul.adaptive-slider li.slider-item figure figcaption h1{
-    font-size:1.2em;
+    font-size:1.em;
     padding-bottom:15px;
     padding-top:10px;
   }
@@ -515,11 +515,11 @@ button {
     height:50%;
   }
   ul.adaptive-slider li.slider-item figure figcaption h1{
-    font-size:1.1em;
+    font-size:1.em;
     left:0.3em;
     overflow-Y: scroll;
     /* padding-right:50px; */
-    text-align:justify;
+    text-align:center;
     padding-top:12px;
   }
   ul.adaptive-slider li.slider-item figure figcaption p{
@@ -527,13 +527,12 @@ button {
     line-height: 1em;
     font-size:1em;
     text-align: center;
-    padding-left:2px;
+    padding-left:20%;
 
   }
 
   ul.adaptive-slider li.slider-item figure figcaption{
     left:10vw;
-    padding-left:50px;
     width:60vw;
     right:5vw;
   }
