@@ -515,7 +515,7 @@ button {
     height:50%;
   }
   ul.adaptive-slider li.slider-item figure figcaption h1{
-    font-size:1em;
+    font-size:1.1em;
     left:0.3em;
     overflow-Y: scroll;
     /* padding-right:50px; */
@@ -549,7 +549,7 @@ button {
     padding-right:5px;
   }
   ul.adaptive-slider li.slider-item figure figcaption h1{
-    font-size:1em;
+    font-size:1.1em;
     padding-top:12px;
     left:0.3em;
 
